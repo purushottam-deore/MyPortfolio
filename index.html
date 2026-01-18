@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <div id="particles-js" class="particles"></div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#startups" class="nav-link">Certificate</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="typewriter">Hello, I'm <br> Purushottam Deore </h1>
+                <h2>Full Stack Web Developer</h2>
+                <p>Passionate about creating innovative solutions through code</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-transition">
+        <div class="container">
+            <h2 class="section-title reveal text-reveal">About Me</h2>
+            <div class="about-content">
+                <div class="about-image float reveal-left hover-zoom">
+                    <img src="assets/1767853132496.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text reveal-right">
+                    <p>I am a passionate full stack web developer with experience in building web applications and solving complex problems. My journey in technology has equipped me with a diverse skill set and a keen eye for detail.</p>
+                    
+                    <!-- Add CV Download Button -->
+                    <div class="cv-download">
+                        <a href="assets/MyCV.pdf" download class="btn primary-btn cv-btn glow btn-3d">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    
+                    <h3 class="text-reveal" data-scramble>Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-category reveal-delay-1">
+                            <h4>Programming Languages</h4>
+                            <ul class="skills-list stagger-list">
+                                <li data-skill="JavaScript - 90%">JavaScript
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 90%"></div>
+                                    </div>
+                                </li>
+                                <li data-skill="Python - 70%">Python
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 85%"></div>
+                                    </div>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="skill-category reveal-delay-2">
+                            <h4>Web Technologies</h4>
+                            <ul class="skills-list stagger-list">
+                                <li data-skill="HTML5 - 95%">HTML5
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 95%"></div>
+                                    </div>
+                                </li>
+                                <li data-skill="CSS3 - 90%">CSS3
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 90%"></div>
+                                    </div>
+                                </li>
+                                <li data-skill="React.js - 85%">React.js
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 85%"></div>
+                                    </div>
+                                </li>
+                                <li data-skill="Node.js - 80%">Node.js
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 80%"></div>
+                                    </div>
+                                </li>
+                                
+                                <li data-skill="PHP Basic - 80%">PHP
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 80%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skill-category reveal-delay-3">
+                            <h4>Tools & Platforms</h4>
+                            <ul class="skills-list stagger-list">
+                                <li data-skill="Git - 90%">Git
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 90%"></div>
+                                    </div>
+                                </li>
+                               
+                                <li data-skill="MySQL - 70%">MySQL
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 70%"></div>
+                                    </div>
+                                </li>
+                                <li data-skill="MongoDB - 85%">MongoDB
+                                    <span class="tooltip-arrow"></span>
+                                    <div class="skill-progress">
+                                        <div class="skill-progress-bar" style="--progress: 85%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add SVG drawing animation as section divider -->
+        <svg class="svg-drawing-animation" viewBox="0 0 1200 80" preserveAspectRatio="none">
+            <path d="M0,0 C300,60 900,60 1200,0 L1200,80 L0,80 Z" />
+        </svg>
+    </section>
+
+    <section id="experience" class="experience section-transition">
+        <div class="container">
+            <h2 class="section-title reveal text-reveal" data-scramble>Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal" data-delay="0.1">
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer Intern</h3>
+                        <h4>GPT SOFTWARE Pvt. Ltd.</h4>
+                        <p class="timeline-date">January 2025 - May 2025</p>
+                        <ul class="experience-details">
+                            <li>Developed reusable React.js components and documented them using Storybook, improving UI consistency by 60%.</li>
+                            <li>Integrated REST APIs and implemented Redux Toolkit for state management, reducing frontend bugs by 30%.</li>
+                            <li>Collaborated with designers and backend engineers to ensure smooth data flow and responsive UI across modules.</li>
+                            <li>Used Git and GitHub for version control and followed deployment workflows.</li>
+                        </ul>
+                        <div class="certificate-link">
+                            <a href="https://drive.google.com/file/d/1r9DI0CnwC2rnNwKPxNptwtO_fGn9vLI-/view?usp=drive_link" class="btn small-btn shimmer" target="_blank" rel="noopener">
+                                <i class="fas fa-certificate"></i> View Certificate
+                            </a>
+                            <a href="https://drive.google.com/file/d/1BV2tcorXiwTOsvTSpW6H--sY6HgL0vBG/view?usp=drive_link" class="btn small-btn" target="_blank" rel="noopener">
+                                <i class="fas fa-file-alt"></i> View Offer Letter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="projects" class="projects section-transition">
+        <div class="container">
+            <h2 class="section-title reveal text-reveal" data-scramble>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal-left card-3d" data-delay="0.1">
+                    <div class="card-3d-inner">
+                        <div class="card-3d-front">
+                            <div class="project-image">
+                                <img src="assets/priscipto.png" alt="Project 1">
+                            </div>
+                            <div class="project-info">
+                                <h3>Prescripto</h3>
+                                <p>A full-stack doctor appointment system with payment integration.</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                    <span>Express.js</span>
+                                    <span>MongoDB</span>
+                                    <span>JWT</span>
+                                    <span>Razorpay</span>
+                                    <span>Axios</span>
+                                    <span>Tailwind CSS</span>
+                                </div>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/purushottam-deore/prescripto" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://prescripto-frontend-olms.onrender.com/" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-right hover-zoom" data-delay="0.2">
+                    <div class="project-image">
+                        <img src="assets/crypto.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Crypto Dashboard</h3>
+                        <p>A collaborative AI application with real-time updates</p>
+                        
+
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Tailwind CSS</span>
+                            <span>Redux Toolkit</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>RESTful API</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/purushottam-deore/crypto-dashboard.git" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://crypto-dashboard-6.onrender.com/" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal-left hover-zoom" data-delay="0.3">
+                    <div class="project-image">
+                        <img src="assets/movies.png" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Entertainment App</h3>
+                        <p>To search your favorite movies and save them</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Tailwind CSS</span>
+                            <span>Redux Toolkit</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>RESTful API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/purushottam-deore/movie-search.git" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://movie-search-2-kgke.onrender.com/" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        
+        <!-- Add SVG drawing animation as section divider -->
+        <svg class="svg-drawing-animation" viewBox="0 0 1200 80" preserveAspectRatio="none">
+            <path d="M0,0 C300,60 900,60 1200,0 L1200,80 L0,80 Z" />
+        </svg>
+    </section>
+
+    <!-- Certificate -->
+
+    <section id="startups" class="startups section-transition">
+        <div class="container">
+            <h2 class="section-title reveal text-reveal" data-scramble>Certificate</h2>
+            <div class="startups-content">
+                <div class="startup-intro reveal-left">
+                    <h3>Full Stack Web Development</h3>
+                    
+                </div>
+                <div class="startups-grid">
+                    
+                    <div class="startup-card reveal-right hover-zoom" data-delay="0.2">
+                        <div class="startup-image">
+                            <img src="assets/certificate.png" alt="Future Startup">
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add SVG drawing animation as section divider -->
+        <svg class="svg-drawing-animation" viewBox="0 0 1200 80" preserveAspectRatio="none">
+            <path d="M0,0 C300,60 900,60 1200,0 L1200,80 L0,80 Z" />
+        </svg>
+    </section>
+
+    <section id="contact" class="contact section-transition">
+        <div class="container">
+            <h2 class="section-title reveal text-reveal">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item reveal-left" data-delay="0.1">
+                    <a href="rajput.purushottamp@gmail.com">  <i class="fas fa-envelope bounce" ></i></a>
+                        <p>rajput.purushottamp@gmail.com </p>
+                    </div>
+                    <div class="contact-item reveal-left" data-delay="0.2">
+                        <i class="fas fa-phone bounce"></i>
+                        <p>+91 7972702145</p>
+                    </div>
+                    <div class="contact-item reveal-left" data-delay="0.3">
+                        <i class="fas fa-map-marker-alt bounce"></i>
+                        <p>Pune, Maharastra, India</p>
+                    </div>
+                    <div class="social-links reveal">
+                        <a href="https://www.linkedin.com/in/purushottam-deore/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/purushottam-deore" class="social-link"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Purushottam Deore. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
