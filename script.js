@@ -186,7 +186,7 @@ function initParticles() {
                     }
                 },
                 "color": {
-                    "value": "#4a6cf7"
+                    "value": "4a6cf7"
                 },
                 "shape": {
                     "type": "circle",
